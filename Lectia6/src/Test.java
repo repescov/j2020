@@ -8,7 +8,11 @@ public class Test {
         float f = 9.5F;
         double d = 11.2345;
         char c = 'B';
-        boolean bool = true;
-        System.out.println("variabila byte b="  +b);
+        String s3='best';
+        // boolean bool = true;
+        System.out.println("variabila byte b="+b);
+        /* acesta este un comentariu
+        pe mai multe randuri
+         */
     }
 }
