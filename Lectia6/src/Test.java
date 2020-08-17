@@ -9,6 +9,6 @@ public class Test {
         double d = 11.2345;
         char c = 'B';
         boolean bool = true;
-        System.out.println("variabila byte b="+b);
+        System.out.println("variabila byte b="  +b);
     }
 }
