@@ -7,6 +7,10 @@ public class Operatori{
         int i = (int)d;
         float f=30F;
         System.out.println("Rezultatul operatorilor este "+i);
+        int a1=10;
+        int b1=22;
+        a1 += b1;
+        System.out.println("Suma este  "+a1);
     }
 
 }
