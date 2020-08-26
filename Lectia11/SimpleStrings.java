@@ -14,5 +14,9 @@ public class SimpleStrings {
         String t2 = t1.concat("Bolea");
         System.out.println(t1);
         System.out.println(t2);
+        String str1 = new String("Ion");
+        String str2 = new String("Ion");
+        System.out.println(str1 == str2);
+        System.out.println(str1.equals(str2));
     }
 }
