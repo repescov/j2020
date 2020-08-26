@@ -27,5 +27,11 @@ public class Pachet3 {
         System.out.println("--------------Acum apelam metoda privata si default prin metoda publica din alt pachet--------------");
         Pachet1 c = new Pachet1();
         c.apelareMetodePrivate();
+        System.out.println("--------------Citim proprietatile private ale clasei pachet 1 -------------");
+        System.out.println("prima proprietate:"+c.obtinex1()+"; a doua: "+c.obtinex2());
+        System.out.println("--------------Modificam proprietatile private ale clasei pachet 1 -------------");
+        c.atribuirex1(100);
+        c.atribuirex2(200);
+        System.out.println("prima proprietate:"+c.obtinex1()+"; a doua: "+c.obtinex2());
     }
 }
