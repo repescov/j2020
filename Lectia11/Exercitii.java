@@ -37,6 +37,11 @@ public class Exercitii {
         System.out.println("Caracterul dinaintea caracterului " + string.charAt(i1) + " de pe pozitia " + i1 + " are codul " + string.codePointBefore(i1));
         System.out.println("Caracterul dinaintea caracterului " + string.charAt(i2) + " de pe pozitia " + i2 + " are codul " + string.codePointBefore(i2));
     }
+//4. Write a java program to count a number of Unicode code points in the specified text range of a String. Go to the editor
+//Sample Output:
+//    Original String : w3rsource.com
+//    Codepoint count = 9
+
 
     public static void main(String[] args) {
         Exercitii exercitii = new Exercitii();
