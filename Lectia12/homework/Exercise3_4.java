@@ -4,8 +4,8 @@ public class Exercise3_4 {
     String nume,prenume;
     double medie;
     Exercise3_4(){
-        nume = "Nume";
-        prenume = "Prenume";
+        nume = "necunoscut";
+        prenume = "necunoscut";
         medie = 0;
         System.out.println("Parametrii impliciti nu au fost stabiliti");
     }
