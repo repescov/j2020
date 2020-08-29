@@ -14,6 +14,6 @@ public class Exercise1 {
 
     public static void main(String[] args) {
         Exercise1 exercise1 = new Exercise1();
-        System.out.println("Suma numerelor 1, 6 si 19 este "+exercise1.media3(1,6,19));
+        System.out.println("Media aritmetica a numerelor 1, 6 si 19 este "+exercise1.media3(1,6,19));
     }
 }
