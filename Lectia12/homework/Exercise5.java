@@ -3,15 +3,18 @@ package Lectia12.homework;
 public class Exercise5 {
     int x;
     int y;
-    Exercise5(){ //constructorul implicit
-        x= 10;
-        y=100;
+
+    Exercise5() { //constructorul implicit
+        x = 10;
+        y = 100;
     }
+
     // metoda care ne va avea cuvantul cheie this ca argument
-    public void afiseaza(Exercise5 a){
-        System.out.println("x = "+a.x+"; y = "+a.y);
+    public void afiseaza(Exercise5 a) {
+        System.out.println("x = " + a.x + "; y = " + a.y);
     }
-    public void obtine(){
+
+    public void obtine() {
         afiseaza(this);
     }
 
