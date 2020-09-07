@@ -1,10 +1,16 @@
 package Lectia13;
 
 class Animal {// acesta va fi superclasa
+    private String name;
+    public void executaActiune(){
+        System.out.println("Animalul executa o actiune generala");
+    }
+
 
     public void sunetAnimal() {
         System.out.println("Animalul emite un sunet");
     }
+
 }
 
 class Caine extends Animal { //Am extins clasa initiala, va fi o clasa child
